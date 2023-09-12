@@ -42,7 +42,7 @@ function holliday(peso){
     else {
     volumen = 1500 + (peso - 20) * 20;
 }
-return (volumen/24);
-
+calculo= volumen/24;
+return calculo;
 }
 
