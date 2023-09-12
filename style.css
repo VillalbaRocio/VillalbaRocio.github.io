@@ -30,9 +30,9 @@ input {
     border: none;
     background-color: #eee;
 }
-
 button {
-  font-size: 15px;
+    margin: 20px;
+    font-size: 15px;
 	font-weight: bold;
 	padding: 12px 45px;
 	border-radius: 30px;
@@ -41,7 +41,7 @@ button {
 	color: #FFFFFF;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	transition: transform 20ms ease-in;
+	transition: transform 10ms ease-in;
 }
 button:active {
 	transform: scale(0.95);
