@@ -16,7 +16,7 @@ BOTON.addEventListener("click", () => {
     MAN.style.display = "block";
     }
     else if (peso > 30){
-    let SuperficieCorporal =(( (peso * 4) + 7) / (peso + 90);
+    let SuperficieCorporal = ( (peso * 4) + 7) / (peso + 90);
     FLU.innerHTML = Math.floor (SuperficieCorporal * 1500) + " m2";
     MAN.innerHTML = Math.floor (SuperficieCorporal * 2000) + " m2";
     FLU.style.display = "block";
