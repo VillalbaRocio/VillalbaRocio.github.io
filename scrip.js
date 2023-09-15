@@ -17,8 +17,8 @@ BOTON.addEventListener("click", () => {
     }
     else if (peso > 30){
     let SuperficieCorporal =(( (peso * 4) + 7) / (peso + 90);
-    FLU.innerHTML = SuperficieCorporal * 1500 + " m2";
-    MAN.innerHTML = SuperficieCorporal * 2000 + " m2";
+    FLU.innerHTML = Math.floor (SuperficieCorporal * 1500) + " m2";
+    MAN.innerHTML = Math.floor (SuperficieCorporal * 2000) + " m2";
     FLU.style.display = "block";
     MAN.style.display = "block";
     }
@@ -42,7 +42,7 @@ function holliday(peso){
     else {
     volumen = 1500 + (peso - 20) * 20;
 }
-calculo= (volumen/24);
+calculo= Math.floor (volumen/24);
 return calculo;
 
 }
