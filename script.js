@@ -1,4 +1,4 @@
-let diccionario = ["APPLE", "MOUSE", "WINGS", "YOUTH", "SWOOD"];
+let diccionario = ["RATON", "ARBOL", "APURO", "ABAJO", "CABRA", "CERCA", "DEJAR", "GAFAS", "HIELO", "METRO", "NUBES", "RELOJ", "SELVA", "VOLAR"];
 const palabra = diccionario[Math.floor(Math.random() * diccionario.length)];
 Math.floor(Math.random() * 10) + 1;
 let intentos = 6;
